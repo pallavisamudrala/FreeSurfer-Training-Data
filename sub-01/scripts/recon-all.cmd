@@ -440,3 +440,7 @@ INFO: Creating symlink to fsaverage subject...
 #--------------------------------------------
 #@# Qdec Cache preproc lh thickness fsaverage Fri Jul 21 16:52:00 EDT 2017
 \n mris_preproc --s sub-01 --hemi lh --meas thickness --target fsaverage --out lh.thickness.fsaverage.mgh \n
+\n\n#---------------------------------
+# New invocation of recon-all Fri Jul 21 17:01:59 EDT 2017 
+#--------------------------------------------
+#@# MotionCor Fri Jul 21 17:02:00 EDT 2017
