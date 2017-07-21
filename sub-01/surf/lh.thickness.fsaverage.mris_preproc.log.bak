@@ -1,4 +1,4 @@
-Fri Jul 21 16:52:00 EDT 2017
+Fri Jul 21 16:23:09 EDT 2017
 setenv SUBJECTS_DIR /Users/freesurfer_user/Documents/Github/FreeSurfer-Training-Data
 cd /Users/freesurfer_user/Documents/Github/FreeSurfer-Training-Data/sub-01/surf
 /Applications/freesurfer/bin/mris_preproc --s sub-01 --hemi lh --meas thickness --target fsaverage --out lh.thickness.fsaverage.mgh
@@ -6,15 +6,15 @@ cd /Users/freesurfer_user/Documents/Github/FreeSurfer-Training-Data/sub-01/surf
 Darwin CFMI-iMac-06.local 16.6.0 Darwin Kernel Version 16.6.0: Fri Apr 14 16:21:16 PDT 2017; root:xnu-3789.60.24~6/RELEASE_X86_64 x86_64
 $Id: FreeSurferEnv.csh,v 1.89 2016/06/09 14:54:31 zkaufman Exp $
 freesurfer-Darwin-OSX-stable-pub-v6.0.0-2beb96c
-tmpdir is ./tmp.mris_preproc.61375
+tmpdir is ./tmp.mris_preproc.54859
 Src lh sphere.reg
 Trg lh sphere.reg
 
 \n\n
 ---------------------------------------------------
-#@# 1/1 sub-01 Fri Jul 21 16:52:00 EDT 2017 --------------
+#@# 1/1 sub-01 Fri Jul 21 16:23:09 EDT 2017 --------------
 -----------------------
-mri_surf2surf --srcsubject sub-01 --srchemi lh --srcsurfreg sphere.reg --trgsubject fsaverage --trghemi lh --trgsurfreg sphere.reg --tval ./tmp.mris_preproc.61375/sub-01.1.mgh --sval /Users/freesurfer_user/Documents/Github/FreeSurfer-Training-Data/sub-01/surf/lh.thickness --sfmt curv --noreshape --cortex
+mri_surf2surf --srcsubject sub-01 --srchemi lh --srcsurfreg sphere.reg --trgsubject fsaverage --trghemi lh --trgsurfreg sphere.reg --tval ./tmp.mris_preproc.54859/sub-01.1.mgh --sval /Users/freesurfer_user/Documents/Github/FreeSurfer-Training-Data/sub-01/surf/lh.thickness --sfmt curv --noreshape --cortex
 Source registration surface changed to sphere.reg
 Target registration surface changed to sphere.reg
 
@@ -22,7 +22,7 @@ $Id: mri_surf2surf.c,v 1.103 2015/11/05 22:07:33 greve Exp $
 
 setenv SUBJECTS_DIR /Users/freesurfer_user/Documents/Github/FreeSurfer-Training-Data
 cd /Users/freesurfer_user/Documents/GitHub/FreeSurfer-Training-Data/sub-01/surf
-mri_surf2surf --srcsubject sub-01 --srchemi lh --srcsurfreg sphere.reg --trgsubject fsaverage --trghemi lh --trgsurfreg sphere.reg --tval ./tmp.mris_preproc.61375/sub-01.1.mgh --sval /Users/freesurfer_user/Documents/Github/FreeSurfer-Training-Data/sub-01/surf/lh.thickness --sfmt curv --noreshape --cortex 
+mri_surf2surf --srcsubject sub-01 --srchemi lh --srcsurfreg sphere.reg --trgsubject fsaverage --trghemi lh --trgsurfreg sphere.reg --tval ./tmp.mris_preproc.54859/sub-01.1.mgh --sval /Users/freesurfer_user/Documents/Github/FreeSurfer-Training-Data/sub-01/surf/lh.thickness --sfmt curv --noreshape --cortex 
 
 sysname  Darwin
 hostname CFMI-iMac-06.local
@@ -32,7 +32,7 @@ srcsubject = sub-01
 srcval     = /Users/freesurfer_user/Documents/Github/FreeSurfer-Training-Data/sub-01/surf/lh.thickness
 srctype    = curv
 trgsubject = fsaverage
-trgval     = ./tmp.mris_preproc.61375/sub-01.1.mgh
+trgval     = ./tmp.mris_preproc.54859/sub-01.1.mgh
 trgtype    = 
 srcsurfreg = sphere.reg
 trgsurfreg = sphere.reg
