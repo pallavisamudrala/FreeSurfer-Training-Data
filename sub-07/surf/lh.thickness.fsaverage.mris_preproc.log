@@ -1,0 +1,17 @@
+Fri Jul 21 16:23:39 EDT 2017
+setenv SUBJECTS_DIR /Users/freesurfer_user/Documents/Github/FreeSurfer-Training-Data
+cd /Users/freesurfer_user/Documents/Github/FreeSurfer-Training-Data/sub-07/surf
+/Applications/freesurfer/bin/mris_preproc --s sub-07 --hemi lh --meas thickness --target fsaverage --out lh.thickness.fsaverage.mgh
+
+Darwin CFMI-iMac-06.local 16.6.0 Darwin Kernel Version 16.6.0: Fri Apr 14 16:21:16 PDT 2017; root:xnu-3789.60.24~6/RELEASE_X86_64 x86_64
+$Id: FreeSurferEnv.csh,v 1.89 2016/06/09 14:54:31 zkaufman Exp $
+freesurfer-Darwin-OSX-stable-pub-v6.0.0-2beb96c
+tmpdir is ./tmp.mris_preproc.56598
+Src lh sphere.reg
+Trg lh sphere.reg
+
+\n\n
+---------------------------------------------------
+#@# 1/1 sub-07 Fri Jul 21 16:23:39 EDT 2017 --------------
+-----------------------
+mri_surf2surf --srcsubject sub-07 --srchemi lh --srcsurfreg sphere.reg --trgsubject fsaverage --trghemi lh --trgsurfreg sphere.reg --tval ./tmp.mris_preproc.56598/sub-07.1.mgh --sval /Users/freesurfer_user/Documents/Github/FreeSurfer-Training-Data/sub-07/surf/lh.thickness --sfmt curv --noreshape --cortex
