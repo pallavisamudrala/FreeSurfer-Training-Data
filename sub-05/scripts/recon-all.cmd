@@ -118,3 +118,8 @@ talairach_avi log file is transforms/talairach_avi.log...
 \n cp ../surf/lh.inflated.nofix ../surf/lh.inflated \n
 #@# Fix Topology lh Fri Jul  7 09:55:15 EDT 2017
 \n mris_fix_topology -rusage /Volumes/CFMI-CFS/sync/ADS/data/mri/FreeSurfer-Training-Data/sub-05/touch/rusage.mris_fix_topology.lh.dat -mgz -sphere qsphere.nofix -ga -seed 1234 sub-05 lh \n
+\n\n#---------------------------------
+# New invocation of recon-all Fri Jul 21 16:23:29 EDT 2017 
+#--------------------------------------------
+#@# Qdec Cache preproc lh thickness fsaverage Fri Jul 21 16:23:31 EDT 2017
+\n mris_preproc --s sub-05 --hemi lh --meas thickness --target fsaverage --out lh.thickness.fsaverage.mgh \n
