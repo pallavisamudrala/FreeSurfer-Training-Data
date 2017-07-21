@@ -11517,3 +11517,18 @@ AvgCurvTif folding.atlas.acfb40.noaparc.i12.2016-08-02.tif
 GCSDIR /Applications/freesurfer/average
 GCS DKaparc.atlas.acfb40.noaparc.i12.2016-08-02.gcs
 #######################################
+Fri Jul 21 17:02:05 EDT 2017
+/Users/freesurfer_user/Documents/Github/FreeSurfer-Training-Data/sub-07
+/Applications/freesurfer/bin/recon-all
+-s /Users/freesurfer_user/Documents/Github/FreeSurfer-Training-Data/sub-07 -motioncor
+#--------------------------------------------
+#@# MotionCor Fri Jul 21 17:02:05 EDT 2017
+ERROR: no run data found in /Users/freesurfer_user/Documents/Github/FreeSurfer-Training-Data/sub-07/mri. Make sure to
+have a volume called 001.mgz in  /Users/freesurfer_user/Documents/Github/FreeSurfer-Training-Data/sub-07/mri/orig.
+If you have a second run of data call it 002.mgz, etc.
+See also: http://surfer.nmr.mgh.harvard.edu/fswiki/FsTutorial/Conversion
+Darwin CFMI-iMac-06.local 16.6.0 Darwin Kernel Version 16.6.0: Fri Apr 14 16:21:16 PDT 2017; root:xnu-3789.60.24~6/RELEASE_X86_64 x86_64
+
+recon-all -s sub-07 exited with ERRORS at Fri Jul 21 17:02:05 EDT 2017
+
+To report a problem, see http://surfer.nmr.mgh.harvard.edu/fswiki/BugReporting
