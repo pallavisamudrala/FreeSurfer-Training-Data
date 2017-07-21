@@ -128,3 +128,7 @@ talairach_avi log file is transforms/talairach_avi.log...
 #--------------------------------------------
 #@# Qdec Cache preproc lh thickness fsaverage Fri Jul 21 16:52:20 EDT 2017
 \n mris_preproc --s sub-05 --hemi lh --meas thickness --target fsaverage --out lh.thickness.fsaverage.mgh \n
+\n\n#---------------------------------
+# New invocation of recon-all Fri Jul 21 17:02:03 EDT 2017 
+#--------------------------------------------
+#@# MotionCor Fri Jul 21 17:02:03 EDT 2017
